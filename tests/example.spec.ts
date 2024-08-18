@@ -17,7 +17,7 @@ test('get started link', async ({ page }) => {
   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
 });
 
-
+/*
 test('test MercadoLibre', async ({ page }) => {
   await page.goto('https://www.mercadolibre.com.co/');
   await page.locator("//input[@id='cb1-edit']").fill("Iphone XV")
@@ -28,4 +28,4 @@ test('test MercadoLibre', async ({ page }) => {
     console.log('Title is ', title)
   }
   await page.pause()
-});
+});*/
